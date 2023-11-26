@@ -23,12 +23,4 @@ abstract class Linkeable {
   final String? linkTargetCode;
 
   final String? link;
-
-  Map<String, dynamic> toMap() => {
-        ApiXmlElement.word.name: word,
-        ApiXmlElement.linkType.name: linkType,
-        if (linkTargetCode != null)
-          ApiXmlElement.linkTargetCode.name: linkTargetCode,
-        if (link != null) ApiXmlElement.link.name: link,
-      };
 }
