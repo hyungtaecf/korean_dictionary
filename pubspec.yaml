@@ -2,6 +2,7 @@ name: korean_dictionary
 description: Korean dictionary API - Interface for the open API services that are provided by the National Institute of Korean Language.
 version: 0.0.1
 homepage: https://github.com/hyungtaecf/korean_dictionary
+repository: https://github.com/hyungtaecf/korean_dictionary
 
 environment:
   sdk: ">=2.17.0 <4.0.0"
@@ -24,3 +25,4 @@ topics:
   - korean
   - hangul
   - dictionary
+  - language
